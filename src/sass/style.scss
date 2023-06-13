@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+// body{
+//     display: flex;
+// }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import 'blocks/navbar';
+@import 'blocks/carousel';
+@import 'blocks/promo';
+@import 'blocks/forms';
+@import 'blocks/modal';
+@import 'blocks/responsive_card';
+@import 'blocks/media';

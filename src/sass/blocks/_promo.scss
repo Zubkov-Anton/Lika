@@ -1,0 +1,65 @@
+.promo{
+    &_statement{
+        min-height: 30px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        padding: 0 0 0 10px;
+        font-family: 'Playfair Regular';
+        font-weight: 400;
+        font-size: 17px;
+        color: $text_color;
+    }
+    &_st{
+        min-height: 55px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 auto;
+        font-family: 'Playfair Italic';
+        font-weight: 400;
+        font-size: 17px;
+        color: $text_color;
+    }
+    &_main{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-family: 'Playfair Regular';
+        font-weight: 400;
+        font-size: 17px;
+        color: $text_color;
+        text-align: center;
+    }
+    &_img{
+        display: flex;
+        justify-content: center;
+        img{
+            display: block;
+            min-width: 315px;
+        }
+        
+    }
+    .button{
+        &_promo{
+            width: 193px;
+            height: 51px;
+            border: none;
+            outline: none;
+            background: #CFCFCF;
+            border-radius: 28px;
+            font-family: 'Playfair Regular';
+            font-weight: 400;
+            font-size: 17px;
+            color: $text_color;
+            transition: 0.3s all;
+            &:hover{
+                background: #b4b4b4;
+            }
+
+        }
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+}
