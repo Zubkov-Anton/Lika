@@ -1,4 +1,49 @@
+@media (max-width: 1200px) {
+    .about_container {
+        max-width: 960px;
+        .wrapper__about {grid-template-columns: 350px 520px;}
+    }
+
+    
+}
+@media (max-width: 992px) {
+    .about_container {
+        max-width: 720px;
+        
+        .wrapper__about {
+            grid-template-columns: 300px 380px;
+            column-gap: 50px;
+            .about_button {
+                padding: 0 13px;
+                font-size: 15px;
+                }
+
+            .about__text {
+                font-size: 15px;
+            }
+            .underlined{
+                font-size: 27px;
+        }
+        
+        }
+    }
+}
+
+    @media (max-width: 768px) {
+        .about_container {
+            max-width: 430px;
+            .wrapper__about {grid-template: auto / auto;
+                row-gap: 15px;
+                }
+        }
+    }
+
+            
 @media (max-width:575px){
+    .about_container {
+        width: 100%;
+        padding: 0 17px;
+    }
     .nav {
         display: none;
         &_active{
@@ -59,4 +104,40 @@
         }
     }       
 }
+
 }
+
+@media (max-width:466px){
+    .overlay{
+        .modal{
+            width: 280px;
+            min-height: 280px;
+            &_mini{
+                min-height: 100px;
+            }
+            &__subtitle{
+                font-size: 15px;
+            }
+            &__descr{
+                font-size: 15px;
+            }
+            .error{
+                font-size: 13px;
+            }  
+        }
+    }
+    .feed-form{
+        width: 200px;
+        .valid{
+            font-size: 13px;
+        }
+        
+    }
+        
+        
+    .button_submit{
+        font-size: 15px;
+    }
+        
+}
+
