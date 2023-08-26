@@ -5,7 +5,7 @@ font-family: 'Roboto';
 
 .wrapper__about {
     display: grid;
-    margin-top: 100px;
+    margin-top: 15vh;
     grid-template-columns: 350px 670px;
     column-gap: 70px;
    
@@ -23,6 +23,7 @@ font-family: 'Roboto';
         
         }
         &__text {
+            font-family: 'Playfair Regular';
             margin-top: 24px;
             font-weight: 400;
             line-height: 22px;
@@ -69,7 +70,7 @@ font-family: 'Roboto';
         display: block;
         width: 10%;
         height: 2px;
-        background-color: #3f3689
+        background-color: #000000;
     }
 }
 

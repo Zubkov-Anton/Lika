@@ -30,8 +30,9 @@
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
+
         <div class="wraper">
-            <header>
+                <header>
                     <div class="container">
                         <div class="navbar">
                             <div class="navbar__logo">
@@ -60,83 +61,45 @@
                             </div>     
                         </div>    
                     </div>
-            </header>
+                </header>
+
             <div class="main">
-                <!-- <div class="container">
-                    <div class="pin_container">
-                        <div class="card card_small"></div>
-                        <div class="card card_medium"></div>
-                        <div class="card card_large"></div>
-                        <div class="card card_small"></div>
-                        <div class="card card_small"></div>
-                        <div class="card card_medium"></div>
-                        <div class="card card_large"></div>
-                        <div class="card card_small"></div>
-
-                    </div>
-                </div> -->
-
-
                 <div class="container">
-                    <section class="carousel">
-                        <div class="carousel_container">                
-                            <div class="rt">
-                                <div class="carousel__inner">
-                                    <div>
-                                        <img src="img/bj/main1.jpg" alt="1" >
+                    <div class="training" id="training">
+                        <h2 class="subtitle">ОБУЧЕНИЕ</h2>
+                        <div class="training__wrapper">
+                            <div class="training__item _anim_items" style="background-image: url(./img/bj/main_bg.JPG)">
+                                <div class="training__item-info">
+                                    <div class="training__item-title">Консультация по социальным сетям</div>
+                                    <div class="training__item-descr">
+                                        Классика. Должен быть у каждой девушки!                            
                                     </div>
-                                    <div>
-                                        <img src="img/bj/main2.jpg" alt="2">
-                                    </div>
+                                    <div class="minibutton training__trigger">Подробнее</div>
                                 </div>
                             </div>
-                            <div class="carousel_button">
-                                <button type="button" class="prev">
-                                    <div class="prev-top"></div>
-                                    <div class="prev-bottom"></div>
-                                </button>
-                                <button type="button" class="next">
-                                    <div class="next-top"></div>
-                                    <div class="next-bottom"></div>
-                                </button>
+                            <div class="training__item _anim_items" style="background-image: url(./img/bj/main_bg.JPG)">
+                                <div class="training__item-info">
+                                    <div class="training__item-title">Консультация для фотографа</div>
+                                    <div class="training__item-descr">
+                                    Подарить себе хорошие моменты - бесценно!                            
+                                    </div>
+                                    <div class="minibutton training__trigger">Подробнее</div>
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                </div>
-                <div class="container">
-                    <section class="promo">
-                        <div class="promo_bodi">
-                            <h1 class="promo_statement">
-                                “Фотография – это возможность сохранить вашу историю с искренними эмоциями внутри кадра”
-                            </h1>
-                            <span class="promo_st"></span>
-                            <span class="promo_main">
-                                Вы хотите пригласить меня фотографом? <br> Оставьте заявку на сайте и я свяжусь с вами для уточнения деталей.
-                            </span>
-                        </div>
-                    <div class="button">
-                        <!-- <button data-modal="consultation" class="button_promo animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="20">ОСТАВИТЬ ЗАЯВКУ</button> -->
-                        <button data-modal="consultation" class="button_promo _anim_items">ОСТАВИТЬ ЗАЯВКУ</button>
-                    </div>
-                    <div class="promo_img"></div>
-                    </section>
-                </div>
-                <div class="overlay">
-                    <div class="modal" id="consultation">
-                        <div class="modal__close">&times;</div>
-                        <div class="modal__subtitle">Заполните форму заявки</div>
-                        <div class="modal__descr">я обязательно отвечу</div>
-                        <form class="feed-form" action="#">
-                            <input name="name"   placeholder="Ваше имя" type="text">
-                            <input name="phone"  placeholder="Ваш телефон">
-                            <input name="email"  placeholder="Ваш E-mail" type="email">
-                            <button class="button_submit">ОТПРАВИТЬ</button>
-                        </form> 
-                    </div>
-                    <div class="modal modal_mini" id="thanks">
-                        <div class="modal__close">&times;</div> 
-                        <div class="modal__subtitle">Спасибо за вашу заявку!</div>
-                        <div class="modal__descr">Я обязательно отвечу!</div>
+                            <div class="training__item _anim_items" style="background-image: url(./img/bj/main_bg.JPG)">
+                                <div class="training__item-info">
+                                    <div class="training__item-title">Курс по фотографии</div>
+                                    <div class="training__item-descr">
+                                        Семья это главное!                            
+                                    </div>
+                                    <div class="minibutton training__trigger">Подробнее</div>
+                                </div>
+                            </div>
+                            
+                        </div> 
+                        <!-- <div class="training__alert">
+                            <span>Не нашли то, что искали?</span> Свяжитесь со мной - и я с радостью подумаю над вашим желанием. Вы можете рассказать ваше видиние: место, образ, атрибуты...!
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -169,21 +132,29 @@
                 
             </footer>
         </div>
-        
-
-
-
+       
 
         
+    
+
+
+
+    
+
+
+
+
+
+
+
 
 
         <script src = "https://code.jquery.com/jquery-3.7.0.min.js"></script> 
         <script src = "js/jquery.validate.min.js"></script> 
         <script src = "js/jquery.maskedinput.min.js"></script>  
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-        <!-- <script src="js/wow.min.js"></script> -->
-        <script src="js/animated.js"></script>
         <script src = "js/script.js"></script>
+        <script src="js/animated.js"></script>
     </body>
 
 

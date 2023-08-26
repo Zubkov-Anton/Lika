@@ -22,7 +22,12 @@ const slider = tns({
     slideBy: 'page',
     speed: 1200,
     nav: false,
-    controls: false
+    controls: false,
+    viewportMax: 'autoWidth',
+    responsive: {
+      640: {
+      }
+    }
     
   });
     document.querySelector('.next').addEventListener ('click',function () {
@@ -31,6 +36,7 @@ const slider = tns({
     document.querySelector('.prev').addEventListener ('click',function () {
         slider.goTo('prev');
         });
+
 
 
 //Modal******************************************

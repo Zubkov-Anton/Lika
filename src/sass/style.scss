@@ -9,9 +9,17 @@
     padding: 0;
     
 }
-// body{
-//     display: flex;
-// }
+html, body{
+    height: 100%;
+}
+ .wraper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .main{
+    flex: 1 1 auto;
+ }
 
 .container {
     max-width: 1440px;
@@ -26,4 +34,6 @@
 @import 'blocks/responsive_card';
 @import 'blocks/about';
 @import 'blocks/portfolio';
+@import 'blocks/footer';
+@import 'blocks/pinterest';
 @import 'blocks/media';

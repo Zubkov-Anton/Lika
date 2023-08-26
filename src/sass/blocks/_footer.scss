@@ -1,0 +1,43 @@
+
+
+footer{
+    .icon_svg{
+        margin-top: 30px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .telegramm {
+            padding-right: 10px;
+            display: inline-block;
+            svg{
+                height: $icon_px;
+                width: $icon_px;
+                path{fill: $icon_color;}
+                rect{stroke: $icon_color;} 
+            }
+            &:hover {
+                path{fill: $icon_color_hover;}
+                rect{stroke: $icon_color_hover;}
+                }
+                }
+        .vk{
+            padding-right: 10px;
+            display: inline-block;
+            svg{
+                height: $icon_px;
+                width: $icon_px;
+                circle{
+                    stroke:$icon_color;
+                }
+            path{
+                stroke:$icon_color;
+            }
+            }
+            &:hover {
+                circle{stroke: $icon_color_hover;}
+                path{stroke: $icon_color_hover;}
+            }
+        }
+    }
+}

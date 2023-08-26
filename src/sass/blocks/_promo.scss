@@ -4,7 +4,7 @@
         display: flex;
         justify-content: flex-end;
         margin: 0 auto;
-        padding: 0 0 0 10px;
+        padding: 0 5px 0 10px;
         font-family: 'Playfair Regular';
         font-weight: 400;
         font-size: 17px;
@@ -31,32 +31,46 @@
         text-align: center;
     }
     &_img{
-        display: flex;
-        justify-content: center;
-        img{
-            display: block;
-            min-width: 315px;
-        }
+        margin-top: 40px;
+        height: 90px;
+        background:url('../../img/bj/signature.jpg')center center no-repeat;
+        // display: flex;
+        // justify-content: center;
+        // img{
+        //     display: block;
+        //     min-width: 315px;
+        // }
         
     }
     .button{
         &_promo{
             width: 193px;
             height: 51px;
-            border: none;
+            border: 1px solid;
             outline: none;
-            background: #CFCFCF;
+            background:none;
             border-radius: 28px;
             font-family: 'Playfair Regular';
             font-weight: 400;
             font-size: 17px;
             color: $text_color;
             transition: 0.3s all;
+            transform: translate(0px, 120%);
+            opacity: 0;
+            transition: all 0.8s ease 0s;
             &:hover{
-                background: #b4b4b4;
+                background: #f2f2f2;
+                color: #272727;
             }
+            
 
         }
+        ._active{
+            transform: translate(0px, 0px);
+            opacity: 1;
+        }
+
+
         display: flex;
         justify-content: center;
         margin-top: 60px;
